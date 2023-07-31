@@ -7,9 +7,9 @@ const Navbar = () => {
         <h1 className='text-blue-600 font-logo font-bold text-3xl'><Link to='/'>B</Link></h1>
         <ul className='flex items-center gap-5'>
             <li className='font-bold uppercase hover:text-cyan-500'><a href='#home'>Home</a></li>
-            <li className='font-bold uppercase hover:text-cyan-500 cursor-pointer'>About</li>
-            <li className='font-bold uppercase hover:text-cyan-500 cursor-pointer'>Projects</li>
-            <li className='font-bold uppercase hover:text-cyan-500 cursor-pointer'>Contact</li>
+            <li className='font-bold uppercase hover:text-cyan-500 cursor-pointer'><a href='#about'>About</a></li>
+            <li className='font-bold uppercase hover:text-cyan-500'><a href='#projects'>Projects</a></li>
+            <li className='font-bold uppercase hover:text-cyan-500 cursor-pointer'><a href='#contact'>Contact</a></li>
         </ul>
     </nav>
   )

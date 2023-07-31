@@ -1,7 +1,7 @@
 import React from 'react';
-import {AiFillHtml5} from 'react-icons/ai';
-import {RiBootstrapFill, RiJavascriptLine} from 'react-icons/ri';
-import {BiLogoReact, BiLogoJava, BiLogoSpringBoot, BiLogoTailwindCss, BiLogoJavascript, BiLogoPostgresql} from 'react-icons/bi';
+import {AiFillHtml5, AiOutlineGithub} from 'react-icons/ai';
+import {RiBootstrapFill} from 'react-icons/ri';
+import {BiLogoReact, BiLogoJava, BiLogoSpringBoot, BiLogoFirebase, BiLogoTailwindCss, BiLogoJavascript, BiLogoPostgresql, BiLogoGit} from 'react-icons/bi';
 import {SiSpringboot} from 'react-icons/si';
 import {DiMysql} from 'react-icons/di';
 import {TbApi} from 'react-icons/tb';
@@ -14,8 +14,11 @@ const Technologies = () => {
         <li className='flex items-center justify-self-start gap-3 text-xl'><AiFillHtml5 className='text-cyan-500' /> HTML/CSS</li>
         <li className='flex items-center justify-self-start gap-3 text-xl'><RiBootstrapFill className='text-cyan-500' /> Bootstrap</li>
         <li className='flex items-center justify-self-start gap-3 text-xl'><BiLogoTailwindCss className='text-cyan-500' /> Tailwindcss</li>
-        <li className='flex items-center justify-self-start gap-3 text-xl'><BiLogoJavascript className='text-cyan-500' /> Javascript</li>
+        <li className='flex items-center justify-self-start gap-3 text-xl'><BiLogoJavascript className='text-cyan-500' /> JavaScript</li>
+        <li className='flex items-center justify-self-start gap-3 text-xl'><BiLogoGit className='text-cyan-500' /> Git</li>
+        <li className='flex items-center justify-self-start gap-3 text-xl'><AiOutlineGithub className='text-cyan-500' /> Github</li>
         <li className='flex items-center justify-self-start gap-3 text-xl'><BiLogoReact className='text-cyan-500' /> React</li>
+        <li className='flex items-center justify-self-start gap-3 text-xl'><BiLogoFirebase className='text-cyan-500' /> Firebase</li>
         <li className='flex items-center justify-self-start gap-3 text-xl'><BiLogoJava className='text-cyan-500' /> Java</li>
         <li className='flex items-center justify-self-start gap-3 text-xl'><BiLogoSpringBoot className='text-cyan-500' /> Spring</li>
         <li className='flex items-center justify-self-start gap-3 text-xl'><SiSpringboot className='text-cyan-500' /> SpringBoot</li>
