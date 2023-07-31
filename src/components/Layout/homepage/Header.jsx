@@ -1,7 +1,7 @@
 import React from 'react';
 import { PiHandWavingBold } from 'react-icons/pi';
 import {BsGithub, BsLinkedin, BsFacebook} from 'react-icons/bs';
-import me from '../../../src/assets/me.jpeg';
+import me from '../../../assets/me.jpeg';
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
               <a className='transition ease-out hover:scale-125' href='https://github.com/Bongani001' target='_blank'><BsGithub /></a>
               <a className='transition ease-out hover:scale-125' href='https://www.linkedin.com/in/bongani-nyaku' target='_blank'><BsLinkedin /></a>
             </div>
-            <button className='text-cyan-400 border-2 border-cyan-400 rounded-lg font-bold hover:text-white hover:bg-cyan-400 mt-9 px-3 py-1'><a href='https://drive.google.com/file/d/1KY6E-vqVIovyJ6quMOyrCZZptv_vyY23/view?usp=drive_link' target='_blank'>Resume</a></button>
+            <button className='btn mt-9'><a href='https://drive.google.com/file/d/1KY6E-vqVIovyJ6quMOyrCZZptv_vyY23/view?usp=drive_link' target='_blank'>Resume</a></button>
         </div>
         <div className='w-60 rounded-lg overflow-hidden hidden md:block'>
             <img src={me} className='object-fill' alt='Profile photo' />

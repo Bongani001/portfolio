@@ -8,9 +8,9 @@ import {TbApi} from 'react-icons/tb';
 
 const Technologies = () => {
   return (
-    <div className='flex flex-col items-center py-5'>
-      <h2 className='text-cyan-500 text-2xl font-bold uppercase'>Skills</h2>
-      <ul className='w-full grid grid-cols-2 sm:grid-cols-4 gap-16 mt-10'>
+    <section className='flex flex-col items-center py-5'>
+      <h2 className='section-heading'>Skills</h2>
+      <ul className='w-full grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-16 mt-10'>
         <li className='flex items-center justify-self-start gap-3 text-xl'><AiFillHtml5 className='text-cyan-500' /> HTML/CSS</li>
         <li className='flex items-center justify-self-start gap-3 text-xl'><RiBootstrapFill className='text-cyan-500' /> Bootstrap</li>
         <li className='flex items-center justify-self-start gap-3 text-xl'><BiLogoTailwindCss className='text-cyan-500' /> Tailwindcss</li>
@@ -23,7 +23,7 @@ const Technologies = () => {
         <li className='flex items-center justify-self-start gap-3 text-xl'><DiMysql className='text-cyan-500' /> MySQL</li>
         <li className='flex items-center justify-self-start gap-3 text-xl'><TbApi className='text-cyan-500' /> REST API</li>
       </ul>
-    </div>
+    </section>
   )
 }
 

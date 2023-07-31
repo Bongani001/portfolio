@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-heading {
+    @apply text-cyan-500 text-2xl font-bold uppercase;
+}
+
+.btn {
+    @apply text-cyan-400 border-2 border-cyan-400 rounded-lg font-bold hover:text-white hover:bg-cyan-400 px-3 py-1;
+}
