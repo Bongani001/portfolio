@@ -9,5 +9,13 @@
 }
 
 .btn {
-    @apply text-cyan-400 border-2 border-cyan-400 rounded-lg font-bold hover:text-white hover:bg-cyan-400 px-3 py-1;
+    @apply text-cyan-400 border-2 border-cyan-400 rounded font-bold hover:text-white hover:bg-cyan-400 px-3 py-1;
+}
+
+.top-right-section-corner-circle {
+    @apply before:absolute before:content-[''] before:w-40 before:h-40 before:bg-cyan-500 before:-top-5 before:-right-8 before:rounded-full
+}
+
+.bottom-left-section-corner-circle {
+    @apply after:absolute after:content-[''] after:w-20 after:h-20 after:bg-cyan-500 after:-bottom-5 after:-left-5 after:rounded-full
 }
