@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section id='contact' className=''>
         <h2 className='section-heading text-center m-5'>Contact</h2>
-        <p className='text-xl mb-3'>You can reach using the contacts below:</p>
+        <p className='text-xl mb-3'>You can reach me using the contacts below:</p>
         <div className='w-full'>
             <p><BsFillTelephoneFill className='text-gray-500 inline mr-3' /> +27 63 200 8090</p>
             <p><MdEmail className='text-gray-500 inline mr-3' /> bbongs421@gmail.com</p>

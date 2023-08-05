@@ -15,7 +15,7 @@ export const projects = [
     {
         id: 2,
         title: 'ChatUp',
-        descrition: 'A full-stack mobile friendly chatting app similar to WhatsApp',
+        descrition: 'A full-stack mobile friendly chatting app similar to desktop WhatsApp',
         code: 'https://github.com/Bongani001/chatup',
         live: 'https://chatupweb.netlify.app',
         img: chatUp,
