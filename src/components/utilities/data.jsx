@@ -29,7 +29,7 @@ export const projects = [
         title: 'Twitter',
         descrition: 'A website that looks like the official website of Twitter',
         code: 'https://github.com/Bongani001/twitter-clone',
-        live: 'https://chatupweb.netlify.app',
+        live: 'https://gelo-twitter.netlify.app',
         img: twitter,
         tools: 'HTML | CSS'
     },
