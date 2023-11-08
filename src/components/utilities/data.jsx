@@ -4,6 +4,7 @@ import weather from '../../assets/weather.png';
 import twitter from '../../assets/twitter.png';
 import tesla from '../../assets/tesla.png';
 import googleKeep from '../../assets/google-keep.png';
+import instagram from '../../assets/instagram.png';
 
 export const projects = [
     {
@@ -26,7 +27,7 @@ export const projects = [
     },
     {
         id: 3,
-        title: 'Twitter',
+        title: 'Twitter Clone',
         descrition: 'A website that looks like the official website of Twitter',
         code: 'https://github.com/Bongani001/twitter-clone',
         live: 'https://gelo-twitter.netlify.app',
@@ -44,7 +45,7 @@ export const projects = [
     },
     {
         id: 5,
-        title: 'Tesla',
+        title: 'Tesla Website Clone',
         descrition: 'A website that looks like the official website of Tesla',
         code: 'https://github.com/Bongani001/tesla-clone',
         live: 'https://gelo-tesla.netlify.app',
@@ -53,11 +54,20 @@ export const projects = [
     },
     {
         id: 6,
-        title: 'Google Keep',
+        title: 'Google Keep Clone',
         descrition: 'A website that looks like the official website of Google Keep',
         code: 'https://github.com/Bongani001/google-keep-clone',
         live: 'https://gelo-google-keep.netlify.app',
         img: googleKeep,
-        tools: 'HTML | CSS'
+        tools: 'HTML | CSS | JavaScript | Firebase'
+    },
+    {
+        id: 7,
+        title: 'Instagram Clone',
+        descrition: 'A website that looks like the official social media website of Instagram',
+        code: 'https://github.com/Bongani001/instagram-clone',
+        live: 'https://gelo-instagram.netlify.app',
+        img: instagram,
+        tools: 'HTML | CSS | JavaScript | Firebase'
     }
 ]
