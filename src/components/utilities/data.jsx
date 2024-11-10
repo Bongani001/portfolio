@@ -35,15 +35,6 @@ export const projects = [
         tools: 'HTML | CSS'
     },
     {
-        id: 4,
-        title: 'Weather',
-        descrition: 'A weather app showing the current weather conditions using the OpenWeatherMap API',
-        code: 'https://github.com/Bongani001/weather-app',
-        live: 'https://bongani001.github.io/weather-app/',
-        img: weather,
-        tools: 'HTML/CSS | JavaScript | API'
-    },
-    {
         id: 5,
         title: 'Tesla Website Clone',
         descrition: 'A website that looks like the official website of Tesla',
@@ -52,22 +43,4 @@ export const projects = [
         img: tesla,
         tools: 'HTML | CSS'
     },
-    {
-        id: 6,
-        title: 'Google Keep Clone',
-        descrition: 'A website that looks like the official website of Google Keep',
-        code: 'https://github.com/Bongani001/google-keep-clone',
-        live: 'https://gelo-google-keep.netlify.app',
-        img: googleKeep,
-        tools: 'HTML | CSS | JavaScript | Firebase'
-    },
-    {
-        id: 7,
-        title: 'Instagram Clone',
-        descrition: 'A website that looks like the official social media website of Instagram',
-        code: 'https://github.com/Bongani001/instagram-clone',
-        live: 'https://gelo-instagram.netlify.app',
-        img: instagram,
-        tools: 'HTML | CSS | JavaScript | Firebase'
-    }
 ]
